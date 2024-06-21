@@ -31,7 +31,7 @@ export default function App() {
     });
   }
 
-  function deleteTodo(id: String){
+  function deleteTodo(id: string){
     console.log("deleting", id)
     client.models.Todo.delete({id})
   }
